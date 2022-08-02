@@ -1,0 +1,16 @@
+*{
+    font-family: 'Vazirmatn';
+}
+
+.bg-main-2{
+    background-color: rgb(255, 59, 29);
+}
+.bg-main-1{
+    background-color: rgb(25, 25, 25);
+}
+.text-main-2{
+    color: rgb(255, 59, 29);
+}
+.text-main-1{
+    color: rgb(25, 25, 25);
+}
