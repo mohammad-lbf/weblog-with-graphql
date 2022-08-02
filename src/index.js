@@ -5,7 +5,7 @@ import App from './App';
 import { ApolloClient , InMemoryCache , ApolloProvider } from '@apollo/client';
 import { BrowserRouter } from 'react-router-dom';
 const client = new ApolloClient({
-    uri:"https://api-us-west-2.hygraph.com/v2/cl67rnab4celw01ut8byq83bg/master",
+    uri:process.env.REACT_APP_HYGRAPH_URI,
     cache: new InMemoryCache()
 })
 const root = ReactDOM.createRoot(document.getElementById('root'));
