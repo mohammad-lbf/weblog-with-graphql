@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components'
 const Header = () => {
     const Mheader = styled.div`
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:10;
     .link{
         &:hover{
             color:rgb(255, 59, 29);

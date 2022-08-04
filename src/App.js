@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css'
-import Header from './component/shared/Header';
-import Welcome from './component/shared/Welcome';
+import Articles from './component/Articles';
+import Footer from './component/layout/Footer';
+import Header from './component/layout/Header';
 const App = () => {
   return (
     <div>
       <Header />
-      <Welcome />
+      <Articles />
+      <Footer />
     </div>
   );
 };
