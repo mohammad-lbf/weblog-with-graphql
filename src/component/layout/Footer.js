@@ -29,12 +29,12 @@ const Footer = () => {
                 </div>
                 <div className="d-flex flex-column align-items-center align-items-lg-start my-3 my-lg-0">
                     <Link className="my-1 text-decoration-none text-main-2" to="/">مقالات</Link>
-                    <Link className="my-1 text-decoration-none text-main-2" to="/">دسته بندی ها</Link>
-                    <Link className="my-1 text-decoration-none text-main-2" to="/">نویسندگان</Link>
-                    <Link className="my-1 text-decoration-none text-main-2" to="/">درباره ما</Link>
+                    <Link className="my-1 text-decoration-none text-main-2" to="/categories">دسته بندی ها</Link>
+                    <Link className="my-1 text-decoration-none text-main-2" to="/authors">نویسندگان</Link>
+                    <Link className="my-1 text-decoration-none text-main-2" to="/aboutus">درباره ما</Link>
                 </div>
                 <div className="d-flex flex-column align-items-center mb-3 mb-lg-0">
-                    <Link to="/" style={{width:"270px"}} className="bg-main-2 py-1 text-center text-light rounded text-decoration-none">درباره پروژه</Link>
+                    <Link to="/aboutproject" style={{width:"270px"}} className="bg-main-2 py-1 text-center text-light rounded text-decoration-none">درباره پروژه</Link>
                     <div className="d-flex mt-4 align-items-center justify-content-center">
                         <div className="bg-main-2
                          text-light

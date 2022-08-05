@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Authors = () => {
+const AboutUs = () => {
     return (
         <div style={{minHeight:"70vh",marginTop:"65px"}}>
-            authors
+            About us
         </div>
     );
 };
 
-export default Authors;
+export default AboutUs;

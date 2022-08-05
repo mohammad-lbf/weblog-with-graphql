@@ -60,12 +60,12 @@ const Header = () => {
                 </Link>
                 <div className="header-links d-none d-lg-flex align-items-center">
                     <Link className="mx-2 pb-1 rounded" to="/">مقالات</Link>
-                    <Link className="mx-2 pb-1 rounded" to="/">دسته بندی ها</Link>
-                    <Link className="mx-2 pb-1 rounded" to="/">نویسندگان</Link>
-                    <Link className="mx-2 pb-1 rounded" to="/">درباره ما</Link>
+                    <Link className="mx-2 pb-1 rounded" to="/categories">دسته بندی ها</Link>
+                    <Link className="mx-2 pb-1 rounded" to="/authors">نویسندگان</Link>
+                    <Link className="mx-2 pb-1 rounded" to="/aboutus">درباره ما</Link>
                 </div>
                 <div className="d-none d-lg-flex align-items-center">
-                    <Link to="/" className=" about-project p-2 px-3 ">
+                    <Link to="/aboutproject" className=" about-project p-2 px-3 ">
                         درباره پروژه
                     </Link>
                 </div>
