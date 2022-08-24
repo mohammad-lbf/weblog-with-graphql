@@ -4,10 +4,11 @@ import Articles from './component/Articles';
 import Footer from './component/layout/Footer';
 import Header from './component/layout/Header';
 import { Routes , Route } from 'react-router-dom';
-import Categories from './component/Categories';
 import AboutUs from './component/AboutUs';
-import Authors from './component/blog/Authors';
+import Authors from './component/blog/Author';
 import AboutProject from './component/AboutProject';
+import Blog from './component/blog/Blog';
+import Author from './component/blog/Author';
 const App = () => {
   return (
     <div>
@@ -17,14 +18,17 @@ const App = () => {
             path="/"
             element={<Articles />} />
         <Route 
-            path="/categories"
-            element={<Categories />} />
-        <Route 
             path="/aboutus"
             element={<AboutUs />} />
+         <Route 
+            path="/blogs/:slug"
+            element={<Blog />} />   
         <Route 
             path="/authors"
-            element={<Authors />} />    
+            element={<Authors />} />  
+        <Route 
+        path="/authors/:slug"
+        element={<Author />} />   
         <Route 
             path="/aboutproject"
             element={<AboutProject />} />    

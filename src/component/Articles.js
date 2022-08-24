@@ -2,11 +2,12 @@ import React from 'react';
 import { Container, Grid, Typography } from '@mui/material';
 import Welcome from './shared/Welcome';
 import Blogs from './blog/Blogs';
-import Authors from './blog/Authors';
+import Authors from './Authors';
+
 
 const Articles = () => {
     return (
-        <div style={{minHeight:"100vh",marginTop:"60px"}}>
+        <div style={{marginTop:"60px"}}>
             <Welcome />
             <Container maxWidth="lg">
                 <Grid container spacing={2} padding={3} >

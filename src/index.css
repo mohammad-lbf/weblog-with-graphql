@@ -17,8 +17,11 @@
 .border-bottom-m-2{
     border-bottom: solid 1px rgb(255, 59, 29);
 }
-.border-tpo-m-2{
+.border-top-m-2{
     border-top: 1px solid rgb(255, 59, 29);
+}
+.fs-15{
+    font-size: 15px;
 }
 ::-webkit-scrollbar {
     width: 10px;

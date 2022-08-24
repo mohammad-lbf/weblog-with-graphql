@@ -58,16 +58,15 @@ const Header = () => {
                         </span>
                     </div>
                 </Link>
+                <div className="align-items-center d-none d-lg-flex">
+                <Link to="/aboutproject" className=" about-project p-2 px-3 mx-2 ">
+                        درباره پروژه
+                </Link>
                 <div className="header-links d-none d-lg-flex align-items-center">
                     <Link className="mx-2 pb-1 rounded" to="/">مقالات</Link>
-                    <Link className="mx-2 pb-1 rounded" to="/categories">دسته بندی ها</Link>
                     <Link className="mx-2 pb-1 rounded" to="/authors">نویسندگان</Link>
                     <Link className="mx-2 pb-1 rounded" to="/aboutus">درباره ما</Link>
                 </div>
-                <div className="d-none d-lg-flex align-items-center">
-                    <Link to="/aboutproject" className=" about-project p-2 px-3 ">
-                        درباره پروژه
-                    </Link>
                 </div>
             </Mheader>
         </div>
