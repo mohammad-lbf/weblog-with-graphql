@@ -38,3 +38,27 @@ query MyQuery {
 }
 
 `
+export const GET_BLOG_INFO = gql`
+
+query MyQuery($slug:String!) {
+  post(where: {slug: $slug}) {
+    author {
+      filed
+      name
+      avatar {
+        url
+      }
+    }
+    title
+    content {
+      html
+    }
+    coverphoto {
+      url
+    }
+    datePublished
+  }
+}
+
+
+`

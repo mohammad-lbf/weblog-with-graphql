@@ -10,7 +10,7 @@ const Authors = () => {
     return (
         <>
         {data &&
-        <div className="bg-light rounded d-flex flex-column align-items-start border py-3 px-3">
+        <div className="bg-light rounded d-flex flex-column align-items-start border py-3 px-3 shadow-sm">
             <div className="d-flex justify-content-start w-100 align-items-center">
                 <img className="rounded-circle" style={{width:"40px" , height:"40px"}} src={Profile} />
                 <p className="fs-15 mb-0 me-2">محمد لبافی</p>
