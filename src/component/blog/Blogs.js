@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {useEffect} from 'react';
 import { useQuery } from '@apollo/client';
 
 import { Grid } from '@mui/material';
@@ -15,7 +15,16 @@ import Error from '../shared/Error';
 const Blogs = () => {
 
     const {loading , data , error} = useQuery(GET_BLOGS_INFO);
-
+    useEffect(()=>{
+        scrollTop()
+    } , [])
+        const scrollTop = ()=>{
+            window.scrollTo({
+                top:-100,
+                left:-100,
+                behavior:'smooth'
+            })
+        }
     return (
         <>
         {

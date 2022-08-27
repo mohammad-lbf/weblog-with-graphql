@@ -1,5 +1,4 @@
-import React from 'react';
-import './App.css'
+import React , {useState} from 'react';
 import Articles from './component/Articles';
 import Footer from './component/layout/Footer';
 import Header from './component/layout/Header';
@@ -9,12 +8,16 @@ import Authors from './component/blog/Author';
 import AboutProject from './component/AboutProject';
 import Blog from './component/blog/Blog';
 import Author from './component/blog/Author';
+import HambergurMenuModal from './component/HambergurMenuModal';
+
 
 // All Rights are reserved for Mohammad Labbafi
 const App = () => {
+  const[open , setOpen] = useState(false);
   return (
     <div>
-      <Header />
+      <Header open={open} setOpen={setOpen} />
+      <HambergurMenuModal open={open} setOpen={setOpen} />
       <Routes>
         <Route 
             path="/"

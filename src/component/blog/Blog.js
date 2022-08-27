@@ -67,7 +67,7 @@ const Blog = () => {
                             <div>
                                 {
                                     data.post.comment.map(comment => 
-                                        <div className="border p-3 rounded my-2">
+                                        <div className="border p-3 rounded my-2 fs-13">
                                             <div className="d-flex text-main-2 fw-bold">
                                                 <p>کاربر</p>
                                                 <p className="me-1">{comment.name} :</p>

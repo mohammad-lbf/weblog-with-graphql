@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-
+import HambergurMenuOpener from '../HambergurMenuOpener';
 
 // All Rights are reserved for Mohammad Labbafi
 // component function
-const Header = () => {
+const Header = ({open , setOpen}) => {
     const Mheader = styled.div`
     position:fixed;
     top:0;
@@ -62,6 +62,7 @@ const Header = () => {
                         </span>
                     </div>
                 </Link>
+                <HambergurMenuOpener open={open} setOpen={setOpen} />
                 <div className="align-items-center d-none d-lg-flex">
                 <Link to="/aboutproject" className=" about-project p-2 px-3 mx-2 ">
                         درباره پروژه

@@ -33,7 +33,6 @@ const Footer = () => {
                 </div>
                 <div className="d-flex flex-column align-items-center align-items-lg-start my-3 my-lg-0">
                     <Link className="my-1 text-decoration-none text-main-2" to="/">مقالات</Link>
-                    <Link className="my-1 text-decoration-none text-main-2" to="/categories">دسته بندی ها</Link>
                     <Link className="my-1 text-decoration-none text-main-2" to="/authors">نویسندگان</Link>
                     <Link className="my-1 text-decoration-none text-main-2" to="/aboutus">درباره ما</Link>
                 </div>

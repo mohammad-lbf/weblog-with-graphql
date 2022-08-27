@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# پروژه وبلاگ - محمد لبافی
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+این پروژه با استفاده از React js و GraphQl توسعه داده شده است
 
 ## Available Scripts
 
