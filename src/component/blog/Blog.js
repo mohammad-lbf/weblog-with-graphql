@@ -25,7 +25,6 @@ const Blog = () => {
     const {loading , data , error} = useQuery(GET_BLOG_INFO , {
         variables:{slug:slug}
     });
-    data ? console.log(data.post) : console.log("hy")
     return (
         <div style={{minHeight:"70vh",marginTop:"100px"}}>
             {loading &&
