@@ -4,7 +4,8 @@ import Welcome from './shared/Welcome';
 import Blogs from './blog/Blogs';
 import Authors from './Authors';
 
-
+// All Rights are reserved for Mohammad Labbafi
+// component function
 const Articles = () => {
     return (
         <div style={{marginTop:"60px"}}>

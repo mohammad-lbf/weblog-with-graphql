@@ -5,6 +5,10 @@ import Profile from '../assets/images/1659274143545.jpg'
 import { Link } from 'react-router-dom';
 import Spinner from './shared/Spinner';
 import Error from './shared/Error';
+
+
+// All Rights are reserved for Mohammad Labbafi
+// component function
 const Authors = () => {
     const {loading , data , error} = useQuery(GET_BLOGS_INFO);
     return (

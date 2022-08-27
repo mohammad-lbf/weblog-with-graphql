@@ -1,5 +1,8 @@
 import React from 'react';
-import ErrorPic from '../../assets/images/error-pic.webp'
+import ErrorPic from '../../assets/images/error-pic.webp';
+
+// All Rights are reserved for Mohammad Labbafi
+// component function
 const Error = () => {
     return (
         <div className="d-flex justify-content-center mt-5">

@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
+// All Rights are reserved for Mohammad Labbafi
+// component function
 const Welcome = () => {
     return (
         <div className="bg-main-1 py-2">

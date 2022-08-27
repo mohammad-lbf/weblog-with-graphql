@@ -2,6 +2,8 @@
     font-family: 'Vazirmatn';
 }
 
+
+ /* All Rights are reserved for Mohammad Labbafi */
 .bg-main-2{
     background-color: rgb(255, 59, 29);
 }
@@ -22,6 +24,12 @@
 }
 .fs-15{
     font-size: 15px;
+}
+.fw-200{
+    font-weight: 400;
+}
+label{
+    font-family: 'Vazirmatn';
 }
 ::-webkit-scrollbar {
     width: 10px;

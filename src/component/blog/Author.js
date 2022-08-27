@@ -1,10 +1,14 @@
 import React , {useEffect} from 'react';
 import { useQuery } from '@apollo/client';
-import { GET_AUTHOR_INFO } from '../../graphql/queries';
-import Spinner from '../shared/Spinner';
-import Error from '../shared/Error';
 import sanitizeHtml from 'sanitize-html';
 
+import Error from '../shared/Error';
+import Spinner from '../shared/Spinner';
+
+import { GET_AUTHOR_INFO } from '../../graphql/queries';
+
+// All Rights are reserved for Mohammad Labbafi
+// component function
 const Author = () => {
     const {loading , data , error} = useQuery(GET_AUTHOR_INFO);
     useEffect(()=>{

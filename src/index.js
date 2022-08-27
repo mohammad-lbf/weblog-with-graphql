@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import { ApolloClient , InMemoryCache , ApolloProvider } from '@apollo/client';
 import { BrowserRouter } from 'react-router-dom';
+
+
+// All Rights are reserved for Mohammad Labbafi
 const client = new ApolloClient({
     uri:process.env.REACT_APP_HYGRAPH_URI,
     cache: new InMemoryCache()

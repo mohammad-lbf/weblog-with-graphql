@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import styled from 'styled-components'
+import styled from 'styled-components';
+
+
+// All Rights are reserved for Mohammad Labbafi
+// component function
 const Header = () => {
     const Mheader = styled.div`
     position:fixed;

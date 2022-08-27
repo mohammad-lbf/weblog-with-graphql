@@ -1,5 +1,7 @@
-import {gql} from '@apollo/client'
+import {gql} from '@apollo/client';
 
+
+// All Rights are reserved for Mohammad Labbafi
 export const GET_BLOGS_INFO = gql`
 query  {
   posts {
@@ -57,6 +59,11 @@ query MyQuery($slug:String!) {
       url
     }
     datePublished
+    comment {
+      name
+      email
+      text
+    }
   }
 }
 

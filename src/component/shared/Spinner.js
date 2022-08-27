@@ -1,5 +1,8 @@
 import React from 'react';
 
+
+// All Rights are reserved for Mohammad Labbafi
+// component function
 const Spinner = () => {
     return (
         <div className="w-100 d-flex justify-content-center mt-5">

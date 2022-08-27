@@ -1,5 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+
+// All Rights are reserved for Mohammad Labbafi
+// component function
 const Footer = () => {
     return (
         <div className="d-flex flex-column bg-main-1">
@@ -81,9 +85,10 @@ const Footer = () => {
                         <i className="bi bi-youtube"></i>
                         </div>
                     </div>
-
                 </div>
             </footer>
+
+            {/* coppy-rights  -- mohammad-labbafi */}
                 <div
                  style={{fontSize:"12px"}}
                  className="border-tpo-m-2

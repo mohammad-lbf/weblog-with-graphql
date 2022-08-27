@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
 
+
+// All Rights are reserved for Mohammad Labbafi
+// component function
 const CardEL = ({title , slug , coverphoto , author}) => {
     return (
         <div style={{height:"370px"}} className="d-flex shadow-sm flex-column align-items-center py-2 bg-light rounded border">

@@ -9,6 +9,8 @@ import Authors from './component/blog/Author';
 import AboutProject from './component/AboutProject';
 import Blog from './component/blog/Blog';
 import Author from './component/blog/Author';
+
+// All Rights are reserved for Mohammad Labbafi
 const App = () => {
   return (
     <div>
